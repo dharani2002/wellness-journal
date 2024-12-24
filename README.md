@@ -1,8 +1,28 @@
-# React + Vite
+# React Deep Dive ⚛️
+**Project**: Mental Wellness Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Objective**: Develop a mental wellness app where users can journal their thoughts, track moods, and reflect on past trends. Focus on creating a calming user experience with a visually appealing and responsive design.
 
-Currently, two official plugins are available:
+# Core Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Journaling Functionality**:
+A text editor where users can write daily journal entries.
+stored in the localstorage.
+
+
+2. **Mood Tracker**:
+- Selectable mood icons (e.g., happy, sad, stressed) for each day.
+- Trend charts to visualize mood patterns over time.
+
+
+3. **Inspirational Quotes**:
+Fetch daily inspirational quotes from an API (e.g., ZenQuotes API).
+Display quotes in an aesthetically pleasing manner with responsive design using tailwind
+
+
+**Calming UI**:
+Use soft colors, gradients, and smooth transitions.
+
+**Additional Enhancements**:
+Add localStorage support to save entries without a backend.
+
